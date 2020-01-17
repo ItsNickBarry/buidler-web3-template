@@ -40,4 +40,8 @@ Test contracts via Buidler:
 npx buidler test
 ```
 
-If using a supported network (such as Ganache), activate gas usage reporting by setting the `REPORT_GAS` environment variable to `true`.
+If using a supported network (such as Ganache), activate gas usage reporting by setting the `REPORT_GAS` environment variable to `true`:
+
+```bash
+REPORT_GAS=true npx buidler test
+```

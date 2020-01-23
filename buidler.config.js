@@ -9,6 +9,9 @@ module.exports = {
     generic: {
       // set URL for external network, such as Infura
       url: `${ process.env.URL }`,
+      accounts: {
+        mnemonic: `${ process.env.MNEMONIC }`,
+      },
     },
   },
 

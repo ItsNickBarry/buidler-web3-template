@@ -19,6 +19,8 @@ module.exports = {
     'it': 'readonly',
     'before': 'readonly',
     'beforeEach': 'readonly',
+    'after': 'readonly',
+    'afterEach': 'readonly',
     'assert': 'readonly',
     'usePlugin': 'readonly'
   },

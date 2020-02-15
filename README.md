@@ -43,7 +43,7 @@ npx buidler test
 If using a supported network (such as Ganache), activate gas usage reporting by setting the `REPORT_GAS` environment variable to `true`:
 
 ```bash
-REPORT_GAS=true npx buidler test
+REPORT_GAS=true npx buidler test --network ganache
 ```
 
 Generate a code coverage report for Solidity contracts:

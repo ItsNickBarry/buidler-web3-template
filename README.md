@@ -17,13 +17,13 @@ By default, Buidler uses the BuidlerEVM.
 To use Ganache append commands with `--network ganache`, after having started `ganache-cli` in a separate process:
 
 ```bash
-npx ganache-cli
+yarn run ganache-cli
 ```
 
 To use an external network via URL, set the `URL` environment variable and append commands with `--network generic`:
 
 ```bash
-URL="https://mainnet.infura.io/v3/[INFURA_KEY]" buidler test --network generic
+URL="https://mainnet.infura.io/v3/[INFURA_KEY]" yarn run buidler test --network generic
 ```
 
 ## Development and Testing
@@ -31,23 +31,23 @@ URL="https://mainnet.infura.io/v3/[INFURA_KEY]" buidler test --network generic
 Compile contracts via Buidler:
 
 ```bash
-npx buidler compile
+yarn run buidler compile
 ```
 
 Test contracts via Buidler:
 
 ```bash
-npx buidler test
+yarn run buidler test
 ```
 
 If using a supported network (such as Ganache), activate gas usage reporting by setting the `REPORT_GAS` environment variable to `true`:
 
 ```bash
-REPORT_GAS=true npx buidler test --network ganache
+REPORT_GAS=true yarn run buidler test --network ganache
 ```
 
 Generate a code coverage report for Solidity contracts:
 
 ```bash
-npx buidler coverage
+yarn run buidler coverage
 ```

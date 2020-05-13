@@ -2,7 +2,7 @@
 
 This repository was generated from a template or is the template itself.  For more information, see [docs/TEMPLATE.md](./docs/TEMPLATE.md).
 
-## Setup
+## Development
 
 Install dependencies via Yarn:
 
@@ -10,7 +10,13 @@ Install dependencies via Yarn:
 yarn install
 ```
 
-## Networks
+Compile contracts via Buidler:
+
+```bash
+yarn run buidler compile
+```
+
+### Networks
 
 By default, Buidler uses the BuidlerEVM.
 
@@ -26,13 +32,7 @@ To use an external network via URL, set the `URL` environment variable and appen
 URL="https://mainnet.infura.io/v3/[INFURA_KEY]" yarn run buidler test --network generic
 ```
 
-## Development and Testing
-
-Compile contracts via Buidler:
-
-```bash
-yarn run buidler compile
-```
+### Testing
 
 Test contracts via Buidler:
 

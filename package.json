@@ -1,7 +1,17 @@
 {
   "name": "buidler-web3-template",
-  "private": true,
   "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "description": "Template for buidler/web3 projects",
+  "keywords": [
+    "buidler",
+    "web3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsNickBarry/buidler-web3-template.git"
+  },
   "devDependencies": {
     "@nomiclabs/buidler": "^1.3.6",
     "@nomiclabs/buidler-truffle5": "^1.3.4",
